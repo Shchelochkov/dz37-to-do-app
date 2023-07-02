@@ -1,0 +1,78 @@
+
+main{
+    margin: auto;
+    width: 80%;
+    max-width: 1200px;
+    min-height: 400px;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: Calibri,serif;
+}
+text h1{
+    margin: 0;
+    font-weight: lighter;
+}
+text p{
+    margin: 0;
+    font-weight: bold;
+}
+#taskList{
+    background-color: white;
+    min-height: 250px;
+    max-height: 250px;
+    overflow-y: scroll;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.p{
+    background-color: rgb(210, 210, 210);
+    line-height: 0.5em;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+.newTask{
+    background-color: silver;
+    padding: 15px;
+    border-radius: 10px;
+}
+.newTask input{
+    width: 100%;
+    height: 30px;
+}
+.newTask p{
+    margin-top: 2px;
+    margin-bottom: 0;
+    font-size: 0.6em;
+}
+.newTask button{
+    background-color: rgb(96, 144, 41);
+    color: white;
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+main button{
+    background-color: rgb(192, 67, 67);
+    color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 15px;
+    align-self: flex-end;
+    border: 0;
+}
+main button:hover {
+    box-shadow:inset 0 5px 5px rgba(0,0,0,0.5);
+}
+.cancel{
+    text-decoration: line-through;
+    color: rgb(67, 123, 52);
+}
+#taskList{
+    user-select: none;
+}
